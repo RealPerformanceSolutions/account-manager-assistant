@@ -1,0 +1,28 @@
+# Never commit a user's generated workspace or any real data.
+# The plugin ships the engine (commands/skills/templates); the workspace is
+# generated locally by /setup on the user's machine and stays private.
+**/context/
+**/accounts/
+**/trackers/
+**/drafts/
+**/reports/
+**/briefings/
+**/calendar/
+**/to-file/
+*-Assistant/
+workspace/
+
+# Secrets / credentials — must never be in the repo
+.env
+.env.*
+*.key
+*.pem
+secrets*.json
+credentials*.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

@@ -1,0 +1,8 @@
+{
+  "name": "account-manager-assistant",
+  "description": "A personal AI assistant for account managers: triages Outlook, drafts replies in your voice, chases quotes and POs, files documents, tracks accounts, and builds monthly reports. Run /setup to configure it.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Real Performance"
+  }
+}

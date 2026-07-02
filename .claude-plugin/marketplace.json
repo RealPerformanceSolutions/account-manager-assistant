@@ -1,0 +1,14 @@
+{
+  "name": "real-performance",
+  "description": "Real Performance's AI assistants.",
+  "owner": {
+    "name": "Real Performance"
+  },
+  "plugins": [
+    {
+      "name": "account-manager-assistant",
+      "source": "./",
+      "description": "Personal AI assistant for account managers: inbox triage, voice drafting, quote and PO chasing, document filing, account notes, and monthly reports. Run /setup after installing."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo 'account-manager-assistant plugin: If this working folder is not set up yet (no CLAUDE.md and no context/ folder), warmly greet the user and offer to run /setup to configure their assistant. If it is already set up, stay quiet.'"
+          }
+        ]
+      }
+    ]
+  }
+}
